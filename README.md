@@ -1,6 +1,6 @@
 # 🔢 Scientific Calculator - React
 
-![Calculator Screenshot](./calculator-screenshot.png)
+![Calculator Screenshot](./calculator.png)
 
 A feature-rich scientific calculator built with React that handles both basic and advanced mathematical operations with a clean, modern interface.
 

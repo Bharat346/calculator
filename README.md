@@ -1,5 +1,10 @@
 # 🔢 Scientific Calculator - React
 
+| Calculator 1 | Calculator 2 |
+|--------------|--------------|
+| ![](./calculator1.png) | ![](./calculator2.png) |
+
+
 ![Calculator Screenshot](./calculator1.png)
 ![Calculator Screenshot](./calculator2.png)
 

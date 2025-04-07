@@ -1,12 +1,15 @@
-# 🔢 Scientific Calculator - React
+# Scientific Calculator 
+
+## 🔗 Live Demo
+
+[👉 Click here to use the Calculator](https://bharat346.github.io/calculator/)
+
+## 📸 Screenshots
 
 | Calculator 1 | Calculator 2 |
 |--------------|--------------|
 | ![](./calculator1.png) | ![](./calculator2.png) |
 
-
-![Calculator Screenshot](./calculator1.png)
-![Calculator Screenshot](./calculator2.png)
 
 A feature-rich scientific calculator built with React that handles both basic and advanced mathematical operations with a clean, modern interface.
 
@@ -35,10 +38,10 @@ A feature-rich scientific calculator built with React that handles both basic an
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/scientific-calculator.git
+git clone https://github.com/Bharat346/calculator.git
 
 # 2. Navigate to project directory
-cd scientific-calculator
+cd Calculator
 
 # 3. Install dependencies
 npm install
@@ -102,13 +105,14 @@ const handleCalculation = (expression) => {
 ### Component Structure
 ```
 src/
-├── components/
-│   ├── Calculator/
-│   │   ├── Calculator.jsx         # Main component
-│   │   ├── CalculatorButtons.jsx  # Button components
-│   │   ├── CalculatorDisplay.jsx  # Display component
-│   │   ├── CalculatorLogic.js     # Business logic
-│   │   └── index.js               # Exports
+├── pages/
+│   ├── Calculator.jsx         # Main component
+│   ├── CalculatorButtons.jsx  # Button components
+│   ├── CalculatorDisplay.jsx  # Display component
+│      
+├── utils/   
+│   ├── CalculatorLogic.js     # Computation logic
+|   |
 ├── App.js
 └── index.js
 ```
@@ -127,9 +131,6 @@ npm run build # Creates production build
 - Tailwind CSS
 - Vite (or Create React App)
 
-## 📜 License
-MIT License © 2023 [Your Name]
-
 ## 🤝 Contributing
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -143,5 +144,3 @@ MIT License © 2023 [Your Name]
 - React community for awesome components
 
 ---
-
-Made with ❤️ by [Your Name] | [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fscientific-calculator)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20React%20calculator%21&url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fscientific-calculator)
